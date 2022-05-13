@@ -86,7 +86,7 @@ router.post("/sendMail", async (req, res) => {
         senderName
       )}, ${mysql.escape(senderMail)}, ${mysql.escape(
         receiverMail
-      )}, ${mysql.escape(location)}, ${mysql.escape(messageContent)}.")`,
+      )}, ${mysql.escape(messageContent)})`,
       (err, results) => {
         if (err) {
           console.log(err);
@@ -94,7 +94,7 @@ router.post("/sendMail", async (req, res) => {
         }
 
         return res.json({
-          text,
+          messageContent,
         });
       }
     );
