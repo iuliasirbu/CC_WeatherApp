@@ -55,3 +55,6 @@ https://openweathermap.org/current#name
 Seminar Cloud Computing
 
 Link video youtube: https://youtu.be/bTXaBwkaGco
+
+Link heroku backend: https://frozen-beach-52315.herokuapp.com/
+link heroku frontend: https://gentle-scrubland-90823.herokuapp.com/
